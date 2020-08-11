@@ -7,8 +7,8 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x3F, 16, 2);
-const char* ssid = "If You Connect You Will Be Hack";
-const char* pass = "ilovereya";
+const char* ssid = "xxxxxxxx";//wifi name
+const char* pass = "xxxxxxxx";// password
 
 void setup(){
   Serial.begin(9600);
